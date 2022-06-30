@@ -460,6 +460,7 @@ body::-webkit-scrollbar-thumb:hover {
 /* Media Query ============================================== */
 
 @media only screen and (min-width: 768px) {
+  
   #portfolio .project-item {
     flex-direction: row;
     height: 400px;
@@ -482,12 +483,19 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 @media (max-width: 768px) {
+ 
+  section {
+    overflow-x: hidden;
+  }
+
   /* Hamburger menu ============================================== */
+  
   nav {
     display: flex;
     justify-content: flex-end;
     margin-right: 30px;
   }
+  
   .hamburger {
     display: block;
     position: relative;
