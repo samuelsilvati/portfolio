@@ -17,7 +17,8 @@ a {
   text-decoration: none;
 }
 
-img, a{
+img,
+a {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -425,12 +426,12 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: #9c5000;
-  border-radius: 10px; 
-  border: 3px solid #011c28; 
+  border-radius: 10px;
+  border: 3px solid #011c28;
 }
 
 body::-webkit-scrollbar-thumb:hover {
-  background-color: #ff8605; 
+  background-color: #ff8605;
 }
 
 /* keyframes ============================================== */
@@ -460,7 +461,6 @@ body::-webkit-scrollbar-thumb:hover {
 /* Media Query ============================================== */
 
 @media only screen and (min-width: 768px) {
-  
   #portfolio .project-item {
     flex-direction: row;
     height: 400px;
@@ -483,13 +483,12 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 @media (max-width: 768px) {
- 
   section {
     overflow-x: hidden;
   }
 
   /* Hamburger menu ============================================== */
-  
+
   nav {
     display: flex;
     justify-content: flex-end;
@@ -553,11 +552,9 @@ body::-webkit-scrollbar-thumb:hover {
   #presentation .container {
     /* min-height: 76vh; */
     margin-bottom: 96px;
-    min-height: calc(75vh - 96px);  
-    
+    min-height: calc(75vh - 96px);
   }
 
-  
   /* Skills section ============================================== */
 
   #skills-container {
