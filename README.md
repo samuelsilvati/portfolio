@@ -16,7 +16,7 @@
 <br>
 
 <p align="center">
-  <a href="https://eusouosamuel.netlify.app/"><img alt="print dsmeta" src="assets/portfolio.png" width="100%"></a>
+  <a href="https://eusouosamuel.netlify.app/"><img alt="print dsmeta" src="assets/portfolio.webp" width="100%"></a>
 </p>
 
 ## ✨ Tecnologias
