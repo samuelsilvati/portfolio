@@ -351,6 +351,8 @@ nav ul a:hover {
 #about article p {
   font-size: 2rem;
   color: aliceblue;
+  line-height: 2.6rem;
+  text-align: justify;
 }
 
 #about picture img {
