@@ -549,6 +549,10 @@ body::-webkit-scrollbar-thumb:hover {
     right: 0;
   }
 
+  .container-blue {
+    padding-bottom: 50px;
+  }
+
   .text-white {
     padding: 60px 0 50px 0;
     margin: 0;
@@ -572,6 +576,12 @@ body::-webkit-scrollbar-thumb:hover {
     font-size: 6rem;
     color: #9c5000;
     cursor: pointer;
+  }
+
+  /* Portfolio section ============================================== */
+
+  #portfolio .portfolio {
+    padding: 40px 0 50px 0;
   }
 
   /* About section ============================================== */
@@ -599,12 +609,17 @@ body::-webkit-scrollbar-thumb:hover {
 
   /* Contact section ============================================== */
 
+  #contact h1 {
+    padding: 60px 0 50px 0;
+  }
+
   #contact a {
     font-size: 1.9rem;
   }
 
   #contact-container {
     max-width: 370px;
+    padding-bottom: 150px;
   }
 
   /* Footer ============================================== */
