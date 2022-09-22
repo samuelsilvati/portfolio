@@ -549,6 +549,11 @@ body::-webkit-scrollbar-thumb:hover {
     right: 0;
   }
 
+  .text-white {
+    padding: 60px 0 50px 0;
+    margin: 0;
+  }
+
   /* Presentation ============================================== */
 
   #presentation .container {
@@ -572,13 +577,20 @@ body::-webkit-scrollbar-thumb:hover {
   /* About section ============================================== */
 
   #about .section-container {
+    padding: 0 30px;
     flex-direction: column;
     gap: 4rem;
   }
 
-  #about article p {
+  #about article {
     padding: 0;
+  }
+
+  #about article p {
+    padding: initial;
     font-size: 2rem;
+    text-align: left;
+    line-height: 2.8rem;
   }
 
   #about picture img {
